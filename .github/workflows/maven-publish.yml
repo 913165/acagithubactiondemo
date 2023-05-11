@@ -43,4 +43,4 @@ jobs:
           inlineScript: |
             az version
             az config set extension.use_dynamic_install=yes_without_prompt
-            az containerapp update -n my-container-app -g rg_cli --image docker.io/tinumistry/empapi:aca000.1    
+            az containerapp update -n my-container-app -g rg_cli --image docker.io/tinumistry/empapi:ga1.0   
