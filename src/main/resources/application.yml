@@ -1,0 +1,22 @@
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  health:
+    liveness:
+      enabled: true
+      timeout: 5s
+      interval: 10s
+      retries: 3
+    readiness:
+      enabled: true
+      timeout: 5s
+      interval: 10s
+      retries: 3
+    indicators:
+      custom:
+        enabled: true

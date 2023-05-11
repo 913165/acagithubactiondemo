@@ -1,0 +1,14 @@
+# Java-specific files
+*.class
+*.war
+*.ear
+*.jar
+target/
+
+# Gradle-specific files
+.gradle/
+build/
+
+# Maven-specific files
+log/
+target/
