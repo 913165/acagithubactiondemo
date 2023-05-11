@@ -68,7 +68,7 @@
 						<image>mcr.microsoft.com/java/jdk:17-zulu-alpine</image>
 					</from>
 					<to>
-						<image>docker.io/tinumistry/gitactiondemo1.0</image>
+						<image>docker.io/tinumistry/ga1.0</image>
 						<auth>
 							<username>tinumistry</username>
 							<password>${env.PASSWORD}</password>
